@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>BestBank</title>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="./assets/bestbank_logo.png" alt="BestBank logo" id="logo">
+            <nav>
+                <ul>
+                    <li class="nav-current-page">Home</li>
+                    <li>Payments</li>
+                    <li>Savings</li>
+                    <li>Financing</li>
+                    <li>Stocks</li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            
+            <div id="actions-container">
+                
+                <div class="btn-wrapper">
+                    <button id="pay-btn" class="action-btn">Pay</button>
+                </div> <!-- btn-wrapper -->
+                
+                <div class="btn-wrapper">
+                    <button id="transfer-btn" class="action-btn">Transfer</button>
+                </div> <!-- btn-wrapper -->
+                
+            </div> <!-- actions-container -->
+            
+            
+            <div class="data-container">
+                
+                <div id="all-accounts" class="data">
+                    <h2>Accounts</h2>
+                 </div> <!-- all-accounts -->
+                 
+                 <div id="spendings-container" class="data">
+                    
+                    <h2>Spendings</h2>
+                        
+                    <div id="spendings-data">
+                        <p class="NA"><i>Select an account to view spendings...</i></p>
+                    </div> <!-- spendings-data -->
+                    
+                </div> <!-- spendings-container -->
+                
+            </div> <!-- data-container -->
+                    
+        </main>
+        
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
